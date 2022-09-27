@@ -1,7 +1,20 @@
+h1 {
+  color: rgb(0, 189, 0);
+  text-align: center;
+  background-color: black;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 20px;
+  width: 300px;
+}
+
 .square {
   height: 100px;
   width: 100px;
-  border: 2px solid black;
+  border: 3px solid black;
+  font-size: 5rem;
+  text-align: center;
+  padding: 15px;
 }
 
 .board {
@@ -9,4 +22,13 @@
   display: flex;
   width: 410px;
   margin: 0 auto;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-image: radial-gradient(green, blue, yellow);
 }
