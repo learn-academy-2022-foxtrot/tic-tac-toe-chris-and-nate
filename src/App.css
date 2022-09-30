@@ -1,3 +1,5 @@
+
+
 h1 {
   color: rgb(0, 189, 0);
   text-align: center;
@@ -29,6 +31,6 @@ h1 {
   justify-content: center;
 }
 
-body {
+.body {
   background-image: radial-gradient(green, blue, yellow);
 }
