@@ -1,5 +1,51 @@
+
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 20px;
+  width: 250px;
+  border-radius: 25px;
+}
+
 .square {
   height: 100px;
   width: 100px;
-  border: 2px solid black;
+  border: 3px solid black;
+  font-size: 5rem;
+  text-align: center;
+  padding: 15px;
+}
+
+.board {
+  flex-wrap: wrap;
+  display: flex;
+  width: 410px;
+  margin: 0 auto;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.body {
+  background: linear-gradient(-45deg, #ffcd61, #b83265, #23a6d5, #23d561);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
