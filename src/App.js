@@ -57,15 +57,15 @@ const App = () => {
   if (gamePlay) {
     if (isWinner(squares) === "❌") {
       console.log("X is winner")
-      setMessage(<h1>❌ WINS!</h1>)
+      setMessage(<h1>❌ WINS</h1>)
       setGamePlay(false)
     } else if (isWinner(squares) === "⭕️") {
       console.log("⭕️ is the winner")
-      setMessage(<h1>⭕️ WINS!</h1>)
+      setMessage(<h1>⭕️ WINS</h1>)
       setGamePlay(false)
     } else if(squares.indexOf(null) === -1){
       console.log("no turn/ draw")
-      setMessage(<h1>DRAW!</h1>)
+      setMessage(<h1>DRAW</h1>)
       setGamePlay(false)
     }
 
